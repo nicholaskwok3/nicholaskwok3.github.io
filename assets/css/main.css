@@ -47,6 +47,21 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+		
+	@font-face {
+    font-family: Roboto-Light;
+    src: url(Roboto-Light.tff);
+    font-weight: bold;
+}
+
+div {
+    font-family: Roboto-Light;
+}
+
+html {
+	font-family: Roboto-Light
+}
+    
 
 /* Box Model */
 
