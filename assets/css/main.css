@@ -2585,6 +2585,8 @@ html {
 			border-top: 0;
 		}
 
+		#main > section: 
+
 /* One */
 
 	#one:before {
@@ -2666,7 +2668,9 @@ html {
 
 			#main > section > .container {
 				padding: 4em 0 2em 0;
+				position: relative; margin right 
 			}
+
 
 	}
 
