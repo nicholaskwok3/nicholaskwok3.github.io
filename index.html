@@ -13,35 +13,32 @@
 	</head>
 	<body>
 	  <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://de.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="assets/js/materialize.min.js"></script>
 
 		<!-- Header -->
 
 					
-			<section id="header" class="z-depth-2">
+			<section id="header" class="z-depth-2" id="nav-mobile" class="side-nav fixed" style="width: 290px; right: 0px;">
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Nicholas Kwok</a></h1>
+					<h1><a href="#">Nicholas Kwok</a></h1>
 					</br>
-					<div class="card-panel teal lighten-2">Just a normal student in a normal school.</div>
+					<div> A scientifically advanced student...</div>
 
 				</header>
-
-
-			
-				<ul="tabs">
-				<li><a class="waves-effect waves-orange btn-flat" class="collapsible popout" data-collapsible="accordion" href="#one">About</a></li>
-				<li><a class="waves-effect waves-orange btn-flat" href="#two">Things I can do</a></li>
-				<li><a class="waves-effect waves-orange btn-flat" class="collapsible popout" data-collapsible="accordion" href="#three">A Few Accomplishments</a></li>
-				<li><a class="waves-effect waves-orange btn-flat" href="#two">Contact Me</a></li>
 				<ul>
+				<li><a class="waves-effect waves-orange btn-flat" href="#one" class="collapsible popout" data-collapsible="accordion" class="active">ABOUT</a></li>
+				<br>
+				<li><a class="waves-effect waves-orange btn-flat" class="collapsible popout" data-collapsible="accordion" class = "active" href="#two">Things I can do</a></li>
+				<br>
+				<li><a class="waves-effect waves-orange btn-flat" class="collapsible popout" data-collapsible="accordion" href="#three">A Few Accomplishments</a></li>
+				<br>
+				<li><a class="waves-effect waves-orange btn-flat" href="#two">Contact Me</a></li>
+				<br>
+				</ul>
 				</div>	
 
-
-
-				
-						
 					</ul>
 				</nav>
 				<footer>
@@ -64,6 +61,7 @@
 						<!-- One -->
 							<section id="one">
 							<div class="container">
+							<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
          										<h3>Read Only</h3>
 										<p>Just an incredibly simple responsive site<br />
 										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
