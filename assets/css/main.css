@@ -2009,7 +2009,7 @@ html {
 	}
 
 		.image img {
-			border-radius: 5px;
+			border-radius: 0px;
 			display: block;
 		}
 
@@ -2033,7 +2033,7 @@ html {
 
 			.image.fit img {
 				display: block;
-				width: 100%;
+				width: 66.9%;
 			}
 
 		.image.avatar {
