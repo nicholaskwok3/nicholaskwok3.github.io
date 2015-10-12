@@ -16,9 +16,7 @@
 	});
 
 	$(document).ready(function(){
-      $('.parallax').parallax();
-    });
-
+	$(".dropdown-button").dropdown();
 	$(function() {
 
 		var $body = $('body'),
