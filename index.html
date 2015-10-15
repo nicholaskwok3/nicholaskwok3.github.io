@@ -9,11 +9,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <link rel="stylesheet" type="text/css" href="assets/css/main.css" media="screen"> 
+      <script type="text/javascript" src="https://de.jquery.com/jquery-2.1.1.min.js"></script>
 
+      <script type="text/javascript">
+      	$(document).ready(function(){
+      $('.parallax').parallax();
+		});
+      </script>
 	</head>
 	<body>
 	  <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://de.jquery.com/jquery-2.1.1.min.js"></script>
+      
       <script type="text/javascript" src="assets/js/materialize.min.js"></script>
 
 		<!-- Header -->
@@ -80,6 +86,11 @@
 							<section id="two">
 							<span class="image fit"><img src="images/IMG_2771.jpg"/></span>
 								<div class="container">
+									<!-- parralax -->
+									<div class="parallax-container">
+								      <div class="parallax"><img src="images/IMG_2771.jpg"></div>
+								    </div>
+
 									<h3>What I Can Do</h3>
 									<p> Here are a variety of things that I can do.</p>
 									<ul class="feature-icons">
@@ -578,6 +589,7 @@ Democritus' idea of an atom
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			
 
 	</body>
 </html>
